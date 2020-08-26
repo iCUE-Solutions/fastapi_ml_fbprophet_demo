@@ -82,7 +82,8 @@ Uvicorn uses the following settings:
 5. ```--port 8080``` defines the port to host the server on
 
 Navigate to http://localhost:8008/ping to test the API is working
-Check out http://localhost:8008/docs to see and test the FastAPI documentation
+
+Check out http://localhost:8008/docs to see and test the FastAPI documentation  
 
 ## Models
 
