@@ -104,7 +104,7 @@ http://localhost:8008/predict
 ```
 
 ^GSPC
-![^GSPC_plot](/lib/figures/^GSPC_plot.png)
+![GSPC_plot](/lib/figures/^GSPC_plot.png)
 ![MSFT_plot_components](/lib/figures/^GSPC_plot_components.png)
 
 AAPL
