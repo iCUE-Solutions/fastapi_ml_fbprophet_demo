@@ -13,12 +13,20 @@ fastapi_ml_deployment
 ├── requirements.txt                <- file listing all required libraries
 └── lib/
     ├── data/
-    |   ├── sampleSubmission.csv
-    |   ├── test.tsv
-    |   └── train.tsv
+    ├── figures/
+    |   ├── ^GSPC_plot.png
+    |   ├── ^GSPC_plot_components.png
+    |   ├── AAPL.png
+    |   ├── AAPL_plot_components.png
+    |   ├── GOOG_plot.png
+    |   ├── GOOG_plot_components.png
+    |   ├── MSFT_plot.png
+    |   └── MSFT_plot_components.png
     └── models/                     <- pickled models for import into API script
-        ├── SentimentClassifier.pkl
-        └── TFIDFVectorizer.pkl
+        ├── ^GSPC.joblib
+        ├── AAPL.joblib
+        ├── GOOG.joblib
+        └── MSFT.joblib
 ```
 
 ## Objectives
@@ -94,3 +102,19 @@ $ curl \
 --data '{"ticker": "MSFT"}' \
 http://localhost:8008/predict
 ```
+
+^GSPC
+![^GSPC_plot](/lib/figures/^GSPC_plot.png)
+![MSFT_plot_components](/lib/figures/^GSPC_plot_components.png)
+
+AAPL
+![MSFT_plot](/lib/figures/AAPL_plot.png)
+![MSFT_plot_components](/lib/figures/AAPL_plot_components.png)
+
+GOOG
+![MSFT_plot](/lib/figures/GOOG_plot.png)
+![MSFT_plot_components](/lib/figures/GOOG_plot_components.png)
+
+MSFT
+![MSFT_plot](/lib/figures/MSFT_plot.png)
+![MSFT_plot_components](/lib/figures/MSFT_plot_components.png)
