@@ -22,7 +22,7 @@ fastapi_ml_deployment
     |   ├── GOOG_plot_components.png
     |   ├── MSFT_plot.png
     |   └── MSFT_plot_components.png
-    └── models/                     <- pickled models for import into API script
+    └── models/                     <- joblib models for import into API script
         ├── ^GSPC.joblib
         ├── AAPL.joblib
         ├── GOOG.joblib
