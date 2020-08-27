@@ -1,4 +1,5 @@
 # fastapi_ml_deployment
+
 Deploying ML models using FastAPI for scalability
 
 ## File Structure
@@ -44,15 +45,15 @@ NOTE: I will continue to add additional models to this project over time
 Create a project folder
 
 ```{python}
-$ mkdir fastapi_ml_deployment
-$ cd fastapi_ml_deployment
+$mkdir fastapi_ml_deployment
+$cd fastapi_ml_deployment
 ```
 
 Create and activate a new virtual environment (using Miniconda installation)
 
 ```{python}
-$ conda create --name venv python=3.7
-$ conda activate venv
+$conda create --name venv python=3.7
+$conda activate venv
 ```
 
 Install required python libraries
@@ -81,9 +82,9 @@ Uvicorn uses the following settings:
 4. ```--host 0.0.0.0``` defines the address to host the server on
 5. ```--port 8080``` defines the port to host the server on
 
-Navigate to http://localhost:8008/ping to test the API is working
+Navigate to [http://localhost:8008/ping](http://localhost:8008/ping) to test the API is working
 
-Check out http://localhost:8008/docs to see and test the FastAPI documentation  
+Check out [http://localhost:8008/docs](http://localhost:8008/docs) to see and test the FastAPI documentation
 
 ## Models
 
