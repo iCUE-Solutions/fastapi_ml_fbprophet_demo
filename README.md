@@ -1,11 +1,11 @@
-# fastapi_ml_deployment
+# fastapi_ml_fbprophet_demo
 
-Deploying ML models using FastAPI for scalability
+Deploying a ML model using Facebook Prophet to predict stock prices and FastAPI for scalability
 
 ## File Structure
 
 ```{}
-fastapi_ml_deployment
+fastapi_ml_fbprophet_demo
 ├── README.md                       <- The top-level README for users of this site
 ├── gitignore
 ├── LICENSE
